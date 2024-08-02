@@ -80,7 +80,7 @@ export default function Example() {
               />
             </div>
             <div className="hidden lg:flex items-center ml-96">
-              <Link href="/">
+              <Link href="/" className="ml-9">
                 <Image src={logo} width={280} height={50} alt="img" />
               </Link>
             </div>
