@@ -61,12 +61,12 @@ const PopularBrands = () => {
               <h1 className="text-3xl font-medium">Popular Brands</h1>
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-1 bg-[#F8306C]"></div>
             </div> */}
-            <div className={`flex space-x-4 overflow-x-auto py-4 px-2 w-full ${style.custom_scrollbar}`}>
+            <div className={`flex space-x-4 overflow-x-auto py-8 px-2  w-full ${style.custom_scrollbar}`}>
 
               {popularPerfumeData.map((item, index) => {
                 return (
 
-                  <section className=" h-[260px] w-[260px] md:h-[260px] md:w-[260px] xl:w-[280px] xl:h-[280px] lg:w-[260px] lg:h-[260px] ">
+                  <section className=" h-[260px] w-[260px] md:h-[260px] md:w-[260px] xl:w-[300px] xl:h-[300px] lg:w-[260px] lg:h-[260px] ">
                     <div className="h-[80px] w-[80px] md:h-[120px] md:w-[120px] xl:w-[200px] xl:h-[200px] lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden shadow-[0_0_0_5px#f193c4] flex-shrink-0">
                     <img
                       src={item.imgUrl}
