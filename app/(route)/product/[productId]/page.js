@@ -217,7 +217,7 @@ const page = async ({ params }) => {
       {/* feedback form  */}
 
       <div className="min-h-screen container mx-auto py-20 px-4">
-        <p className="text-4xl font-medium py-6">
+        <p className="text-4xl font-medium py-6 mb-16">
           {/* {data?.data?.perfume}{" "} */}
           <span className="text-4xl font-semibold ">
             Yeah! Perfume Maison Alhambra for men
@@ -241,7 +241,7 @@ const page = async ({ params }) => {
                   srcset=""
                 />
               </div>
-              <div className="flex justify-around px-14  py-8 md:mt-6">
+              <div className="flex justify-center px-14  py-8 md:mt-6">
                 <div className="w-fit grid place-items-center gap-1">
                   <IoHeart
                     className="border-2 size-12 border-black rounded-full p-1 text-pink-300"
@@ -251,7 +251,7 @@ const page = async ({ params }) => {
                   <span>17 Dislikes</span>
                 </div>
 
-                <div className="w-fit grid place-items-center gap-1">
+                <div className="w-fit grid place-items-center gap-1 ml-10">
                   <Image
                     className="border-2 size-12 border-black rounded-full"
                     src="/likes.svg"
@@ -292,7 +292,7 @@ const page = async ({ params }) => {
                 Login
               </button>
             </div>
-            <div className="h-[33rem]  border rounded-md overflow-hidden">
+            <div className="h-[26rem]  border rounded-md overflow-hidden">
               <img
                 className="h-full mx-auto"
                 src="https://img.pikbest.com/origin/06/25/40/84bpIkbEsTgk3.jpg!sw800"
@@ -329,7 +329,7 @@ const page = async ({ params }) => {
             <Feedback />
             {/* detail start */}
             <div className="space-y-3">
-              <div className="font-medium">{data?.data.details}</div>
+              <div className="font-medium">{data?.data?.details}</div>
 
               <div className="relative border-y-2 py-4">
                 <div className="p-2 absolute -top-5 left-[50%] bg-white">
@@ -365,8 +365,8 @@ const page = async ({ params }) => {
           </div>
         </div>
         {/* Perfume Photos starts */}
-        <div className="py-14">
-          <div className="w-full relative grid place-items-center mb-6">
+        <div className="py-14 mt-14">
+          <div className="w-full relative grid place-items-center mb-14">
             <div className="h-[2px] w-full bg-black absolute"></div>
             <p className="text-3xl font-medium bg-white px-4 z-30">
               Perfume Photos
@@ -377,8 +377,8 @@ const page = async ({ params }) => {
         {/* Perfume Photos ends */}
 
         {/* Fragrance Notes starts */}
-        <div>
-          <div className="w-full relative grid place-items-center mb-6">
+        <div className="mt-20">
+          <div className="w-full relative grid place-items-center mb-14">
             <div className="h-[2px] w-[70%] bg-black absolute"></div>
             <p className="text-3xl font-medium bg-white px-4 z-30">
               Fragrance Notes
@@ -423,8 +423,8 @@ const page = async ({ params }) => {
                     <div className="flex flex-col gap-4 justify-center items-center overflow-auto ">
                       <p className="text-center font-bold">Top Notes</p>
                       <div className="flex gap-4 text-sm">
-                        {data.data.topNote &&
-                          data.data.topNote.map((el) => {
+                        {data?.data?.topNote &&
+                          data?.data?.topNote.map((el) => {
                             return (
                               <div
                                 key={el._id}
@@ -501,7 +501,7 @@ const page = async ({ params }) => {
         {/*Ya perfume categories starts */}
         <div className=" grid lg:grid-cols-[auto_20rem]">
           <div className="space-y-6 px-6">
-            <div className="text-3xl text-center md:text-left text-green-500 font-medium">
+            <div className="text-3xl text-center md:text-left text-green-500 font-medium mt-10 mb-14">
               Yeah Perfume Categories
             </div>
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-14">
@@ -532,13 +532,17 @@ const page = async ({ params }) => {
             </div>
             <FragramRatings />
             <div className="grid gap-5 container ">
-              <span className="font-medium text-3xl py-4">Rating/Results</span>
-
+            <div class="grid place-items-center relative mt-24 mb-6">
+        <h1 class="text-3xl font-medium px-8 py-3 bg-white z-40">Rating/Results </h1>
+        <div class="absolute w-full h-[2px] bg-slate-500"></div>
+      </div>
+            
               <RatingResult />
             </div>
             <div className="space-y-5">
               <div className="grid gap-2">
-                <span className="text-3xl font-medium">Add Your Review</span>
+              <div class="text-3xl font-medium pl-1 relative grid place-items-center mt-24 mb-12"> <div class="absolute w-full border "></div>
+              <div class="z-20 bg-white px-3 py-2">Add Your Review</div></div>    
                 <textarea
                   className="resize-none border-2 px-3 py-2 outline-none rounded-md border-gray-400"
                   name=""

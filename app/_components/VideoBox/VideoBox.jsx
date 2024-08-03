@@ -7,10 +7,10 @@ const VideoBox = () => {
     const [video, setVideo] = useState(true)
 
     return (
-        <div className="grid place-items-center relative bg-slate-100  md:h-[30rem] md:w-[90%] border ">
+        <div className="grid place-items-center relative bg-slate-100  md:h-[15rem] md:w-[90%] border ">
             {
                 video && <img
-                    className="h-[30rem] w-[90%]  z-50"
+                    className="h-[15rem] w-[90%]  z-50"
                     src="https://plus.unsplash.com/premium_photo-1679106770086-f4355693be1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGVyZnVtZXxlbnwwfHwwfHx8MA%3D%3D"
                     alt=""
                 />

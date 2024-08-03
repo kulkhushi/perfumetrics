@@ -1,5 +1,5 @@
 "use client"
-import logo from "../../../_assets/Images/Plogo.png";
+import logo from "../../../_assets/Images/Plogo.webp";
 import Image from "next/image";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdOutlineAttachEmail } from "react-icons/md";

@@ -55,7 +55,7 @@ const PopularBrands = () => {
   return (
     <>
       <div className="container mx-auto max-w-[90%]">
-        <div className="p-5">
+        <div className="p-5 mt-10 mb-20">
           <div className="text-center">
             {/* <div className="inline-block relative pb-5">
               <h1 className="text-3xl font-medium">Popular Brands</h1>
@@ -66,11 +66,15 @@ const PopularBrands = () => {
               {popularPerfumeData.map((item, index) => {
                 return (
 
-                  <section className=" h-[80px] w-[80px] md:h-[100px] md:w-[100px] xl:w-[200px] xl:h-[200px] lg:w-[130px] lg:h-[120px] rounded-full overflow-hidden shadow-[0_0_0_5px#f193c4] flex-shrink-0">
+                  <section className=" h-[260px] w-[260px] md:h-[260px] md:w-[260px] xl:w-[280px] xl:h-[280px] lg:w-[260px] lg:h-[260px] ">
+                    <div className="h-[80px] w-[80px] md:h-[120px] md:w-[120px] xl:w-[200px] xl:h-[200px] lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden shadow-[0_0_0_5px#f193c4] flex-shrink-0">
                     <img
                       src={item.imgUrl}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover p-1 rounded-full hover:scale-125 ease-in duration-300"
                     />
+                    </div>
+                    
+                    <div className="mt-4"><b>Mojave Ghost Absolu de Parfum</b><br/>Byredo</div>
                   </section>
                 );
               })}

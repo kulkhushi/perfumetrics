@@ -25,9 +25,9 @@
 
 
 @media (min-width: 1536px) {
-  .container {
+  /* .container {
     max-width: 1700px;
-}
+} */
 }
 
 body,html {

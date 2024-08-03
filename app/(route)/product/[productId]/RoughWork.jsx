@@ -470,7 +470,7 @@ const page = async ({ params }) => {
                         </div>
                     </div>
 
-                    <div className="grid gap-5 container ">
+                    <div className="grid gap-5 container">
                         <span className="font-medium text-3xl py-4">Rating/Results</span>
 
                         <RatingResult />
@@ -478,7 +478,8 @@ const page = async ({ params }) => {
 
                     <div className="space-y-5">
                         <div className="grid gap-2">
-                            <span className="text-3xl font-medium">Add Your Review</span>
+                            
+                            <span className="text-3xl font-medium">Add Your Review</span> 
                             <textarea
                                 className="resize-none border-2 px-3 py-2 outline-none rounded-md border-gray-400"
                                 name=""

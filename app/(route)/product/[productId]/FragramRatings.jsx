@@ -7,7 +7,7 @@ const FragramRatings = () => {
     return (
         <div>
             <div className="flex flex-col items-center space-y-8">
-                <div className="grid place-items-center relative w-full">
+                <div className="grid place-items-center relative w-full mt-20 mb-8">
                     <h1 className="text-3xl font-medium px-8 py-3 bg-white z-40">
                         Fragram Ratings
                     </h1>
@@ -193,8 +193,8 @@ const FragramRatings = () => {
                 </div>
                 <button className="px-6 py-2 mt-8 text-lg font-semibold text-white bg-pink-500 rounded-md">Rate Fragram</button>
             </div>
-            <div className="space-y-4">
-                <div className="grid place-items-center relative w-full">
+            <div className="space-y-4 mt-24">
+                <div className="grid place-items-center relative w-full mb-16">
                     <h1 className="text-3xl font-medium px-8 py-3 bg-white z-40">
                         Fragrams
                     </h1>

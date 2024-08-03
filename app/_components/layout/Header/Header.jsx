@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import logo from "../../../_assets/Images/Plogo.png";
+import logo from "../../../_assets/Images/Plogo.webp";
 import Link from "next/link";
 import { userStore } from "@/store/userStore";
 import { FaRegUserCircle } from "react-icons/fa";
@@ -37,7 +37,7 @@ export default function Example() {
               <HiMenu size={30} />
             </button>
           </div>
-          <div className="hidden lg:flex items-center space-x-3">
+          <div className="hidden lg:flex items-center space-x-3 mr-28">
             {isUserLoggedIn ? (
               <div className="space-x-3 flex">
                 <span className="font-medium text-lg flex items-center gap-2">
@@ -70,24 +70,25 @@ export default function Example() {
             )}
           </div>
         </div>
-        <div className="w-full bg-pink-300 px-4 py-2">
-          <div className="container mx-auto flex justify-left items-center">
-            <div className="w-72">
-              <input
-                type="text"
-                placeholder="Search reviews"
-                className="w-full rounded-full p-4 h-[30px] focus:outline-none shadow-[0_0_1px_1px#d1d1d1]"
-              />
-            </div>
-            <div className="hidden lg:flex items-center ml-96">
+        <div className="w-full bg-pink-300 px-4 py-0">
+          <div className=" mx-auto flex justify-center items-center lg:ml-96">
+            
+            <div className="hidden lg:flex items-center lg:ml-60">
               <Link href="/" className="ml-9">
                 <Image src={logo} width={280} height={50} alt="img" />
               </Link>
             </div>
+            <div className="w-72 lg:ml-96">
+              <input
+                type="text"
+                placeholder="Search reviews"
+                className="w-full rounded-full p-4 h-[30px] focus:outline-none shadow-[0_0_1px_1px#d1d1d1] relative"
+              />
+            </div>
           </div>
         </div>
         <div className="w-full flex justify-center lg:justify-between items-center px-6 pt-4">
-          <div className="hidden lg:flex justify-center mx-auto gap-14 font-semibold text-lg lg:text-2xl">
+          <div className="hidden lg:flex justify-center mx-auto gap-32 font-semibold text-lg lg:text-xl">
             <Link
               href="/types"
               className="hover:text-pink-500 cursor-pointer transition duration-300"

@@ -92,7 +92,7 @@ const perfumeReviews = [
 const NewPerfumes = () => {
   return (
     <>
-      <div className="pb-12 container grid gap-x-12 lg:grid-cols-[70%_20%] w-full">
+      <div className="pb-12 container grid gap-x-12 lg:grid-cols-[70%_20%] w-full mt-8">
         <div className="hidden lg:block">
           <div className="p-5">
             <div className="text-center">
@@ -145,8 +145,8 @@ const NewPerfumes = () => {
               </div>
             </div>
           </div>
-          <div className="space-y-3 px-3">
-          <div class="grid place-items-center relative">
+          <div className="space-y-3 px-3 mt-1888888888">
+          <div class="grid place-items-center relative mt-8 mb-10">
             <h1 class="text-3xl font-medium px-8 py-3 bg-white z-40">
             Celebrity Perfumes
             </h1>
@@ -190,7 +190,7 @@ const NewPerfumes = () => {
           </div>
         </div>
         <div className="w-full">
-          <CardsList data={perfumeReviews} />
+          {/* <CardsList data={perfumeReviews} /> */}
         </div>
       </div>
     </>

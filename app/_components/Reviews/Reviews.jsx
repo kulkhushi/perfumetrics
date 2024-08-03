@@ -43,10 +43,10 @@ const Reviews = () => {
     },
   ];
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-24">
       <div className="w-full grid lg:grid-cols-[auto_20rem] gap-x-12 px-6 md:px-20 py-3 md:py-10">
         <div className="w-full">
-          <div class="grid place-items-center relative">
+          <div class="grid place-items-center relative mb-10">
             <h1 class="text-3xl font-medium px-8 py-3 bg-white z-40">
               Reviews
             </h1>
@@ -131,11 +131,15 @@ const Reviews = () => {
             </div>
 
             {/* news */}
-            <News />
+           <div className="!mt-[6rem]">
+           <News />
+           </div>
           </div>
         </div>
         <div>
-          <CardsList data={perfumeReviews} />
+         <div className="mt-[8.1rem]">
+         <CardsList data={perfumeReviews} />
+         </div>
         </div>
       </div>
       <NewPerfumes />

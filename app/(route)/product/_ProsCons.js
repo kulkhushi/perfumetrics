@@ -8,9 +8,9 @@ import { FaCrown } from "react-icons/fa";
 const ProsCons = ({ data }) => {
   return (
     <div>
-      <p className="text-4xl font-medium py-2">Pros and Cons</p>
+      {/* <p className="text-4xl font-medium py-2 mt-20">Pros and Cons</p> */}
 
-      <div className="grid grid-col-2  items-center bg-white md:p-6 border border-gray-200 rounded-lg shadow-md">
+      <div className="grid grid-col-2  items-center bg-white md:p-6 border border-gray-200 rounded-lg shadow-md mt-12">
         <div className="grid lg:grid-cols-2 justify-center md:w-full sm:w-60">
           <div className=" md:p-4 lg:border-r border-gray-300 grid place-items-center">
             <div className="mt-4">
