@@ -149,7 +149,7 @@ async function PerfumeSection() {
             data={topPerfumes}
           />
         </div>
-        <div className="space-y-10 mt-[6.6rem]">
+        <div className="space-y-10 mt-[6.6rem] ml-[31px]">
           <div className="border-2 border-pink-500 rounded grid place-items-center py-4 gap-8">
 
             <div className="text-xl md:text-2xl font-semibold">Register</div>
