@@ -134,7 +134,7 @@ async function PerfumeSection() {
 
   return (
     <>
-      <div className="w-full  grid lg:grid-cols-[auto_20rem] lg:gap-y-0 gap-8 gap-x-12 px-8 md:px-20 py-10">
+      <div className="w-full  grid lg:grid-cols-[auto_20rem] lg:gap-y-0 gap-8 gap-x-12 px-8 md:px-0 py-10">
         
         <div className="w-full  flex flex-col gap-4">
         <div class="grid place-items-center relative mb-8">
