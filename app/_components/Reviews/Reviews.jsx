@@ -139,6 +139,7 @@ const Reviews = () => {
         <div>
          <div className="mt-[8.1rem]">
          <CardsList data={perfumeReviews} />
+         <CardsList data={perfumeReviews} />
          </div>
         </div>
       </div>

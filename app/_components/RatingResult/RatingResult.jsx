@@ -243,7 +243,7 @@ const RatingResult = () => {
                                         <div className=' w-full flex justify-start items-center gap-3'>
                                             <span>{sta.num}</span>
                                             <div className='bg-slate-300 relative w-full rounded-3xl h-3'>
-                                                <div style={{ width: `${sta.num}%` }} className="bg-pink-500 absolute h-3 rounded-3xl w-full"></div>
+                                                <div style={{ width: `${sta.num}%` }} className="bg-pink-300 absolute h-3 rounded-3xl w-full"></div>
                                             </div>
                                         </div>
                                     </div>

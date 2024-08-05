@@ -61,13 +61,13 @@ const PopularBrands = () => {
               <h1 className="text-3xl font-medium">Popular Brands</h1>
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-48 h-1 bg-[#F8306C]"></div>
             </div> */}
-            <div className={`flex space-x-4 overflow-x-auto py-8 px-2  w-full ${style.custom_scrollbar}`}>
+            <div className={`flex gap-7 space-x-4 overflow-x-auto py-8 px-2  w-full ${style.custom_scrollbar}`}>
 
               {popularPerfumeData.map((item, index) => {
                 return (
 
-                  <section className=" h-[260px] w-[260px] md:h-[260px] md:w-[260px] xl:w-[300px] xl:h-[300px] lg:w-[260px] lg:h-[260px] ">
-                    <div className="h-[80px] w-[80px] md:h-[120px] md:w-[120px] xl:w-[200px] xl:h-[200px] lg:w-[140px] lg:h-[140px] rounded-full overflow-hidden shadow-[0_0_0_5px#f193c4] flex-shrink-0">
+                  <section className=" h-[200px] w-[200px] md:h-[200px] md:w-[200px] xl:w-[240px] xl:h-[240px] lg:w-[240px] lg:h-[240px] ">
+                    <div className="h-[80px] w-[80px] md:h-[120px] md:w-[120px] xl:w-[150px] xl:h-[150px] lg:w-[150px] lg:h-[150px] rounded-full overflow-hidden shadow-[0_0_0_5px#f193c4] flex-shrink-0">
                     <img
                       src={item.imgUrl}
                       className="w-full h-full object-cover p-1 rounded-full hover:scale-125 ease-in duration-300"

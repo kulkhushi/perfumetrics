@@ -88,7 +88,7 @@ export default function Example() {
           </div>
         </div>
         <div className="w-full flex justify-center lg:justify-between items-center px-6 pt-4">
-          <div className="hidden lg:flex justify-center mx-auto gap-32 font-semibold text-lg lg:text-xl">
+          <div className="hidden lg:flex justify-center mx-auto gap-20 font-semibold text-lg lg:text-xl">
             <Link
               href="/types"
               className="hover:text-pink-500 cursor-pointer transition duration-300"

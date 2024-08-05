@@ -115,6 +115,7 @@ const News = () => {
           Latest Reviews
         </div> */}
         <CardsList data={perfumeReviews} />
+        
       </div>
     </div>
   );
