@@ -207,7 +207,7 @@ const page = async ({ params }) => {
             {/* feedback form  */}
 
             <div className="min-h-screen container mx-auto py-20">
-                <div className="grid gap-x-10 gap-y-14 grid-cols-[auto_28rem]">
+                <div className="grid gap-x-10 gap-y-14 grid-cols-[auto_25rem]">
                     <div className="grid grid-cols-2">
                         <div>
                             <p className="text-3xl font-medium">

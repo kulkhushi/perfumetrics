@@ -223,7 +223,7 @@ const page = async ({ params }) => {
             Yeah! Perfume Maison Alhambra for men
           </span>
         </p>
-        <div className=" gap-x-10 gap-y-14 grid lg:grid-cols-[auto_25rem]">
+        <div className=" gap-x-10 gap-y-14 grid lg:grid-cols-[auto_20rem]">
           <div className="grid md:grid-cols-[55%_45%]  ">
             <div className=" ">
               {/* <img src={data?.data?.banner} alt="img" srcset="" /> */}
@@ -292,7 +292,7 @@ const page = async ({ params }) => {
                 Login
               </button>
             </div>
-            <div className="h-[26rem]  border rounded-md overflow-hidden">
+            <div className="h-[20rem]  border rounded-md overflow-hidden">
               <img
                 className="h-full mx-auto"
                 src="https://img.pikbest.com/origin/06/25/40/84bpIkbEsTgk3.jpg!sw800"
@@ -301,7 +301,7 @@ const page = async ({ params }) => {
             </div>
           </div>
         </div>
-        <div className=" gap-x-10 gap-y-14 grid  lg:grid-cols-[auto_20rem] py-8">
+        <div className=" gap-x-10 gap-y-14 grid  lg:grid-cols-[auto_18.3rem] py-8">
           <div className="space-y-8">
             <div className="grid md:grid-cols-[60%_40%] gap-y-4 md:gap-y-0">
               <div className="space-y-12 w-full flex flex-col justify-center items-center ">
@@ -384,7 +384,7 @@ const page = async ({ params }) => {
               Fragrance Notes
             </p>
           </div>
-          <div className="grid lg:grid-cols-[auto_20rem]">
+          <div className="grid lg:grid-cols-[auto_18rem]">
             <div className="flex items-start justify-center lg:translate-x-6   gap-10 ">
               <div className="flex items-center gap-12  ">
                 <div className="p-4 ">
@@ -499,7 +499,7 @@ const page = async ({ params }) => {
         {/* Related Fragram ends */}
 
         {/*Ya perfume categories starts */}
-        <div className=" grid lg:grid-cols-[auto_20rem]">
+        <div className=" grid lg:grid-cols-[auto_18rem]">
           <div className="space-y-6 px-6">
             <div className="text-3xl text-center md:text-left text-green-500 font-medium mt-10 mb-14">
               Yeah Perfume Categories

@@ -55,7 +55,7 @@ const PopularBrands = () => {
   return (
     <>
       <div className="container mx-auto max-w-[90%]">
-        <div className="p-5 mt-10 mb-20">
+        <div className="p-5 mt-10 mb-10">
           <div className="text-center">
             {/* <div className="inline-block relative pb-5">
               <h1 className="text-3xl font-medium">Popular Brands</h1>

@@ -44,7 +44,7 @@ const Reviews = () => {
   ];
   return (
     <div className="container mx-auto mt-24">
-      <div className="w-full grid lg:grid-cols-[auto_20rem] gap-x-12 px-6 md:px-20 py-3 md:py-10">
+      <div className="w-full grid lg:grid-cols-[auto_20rem] gap-x-4 px-6 md:px-10 py-3 md:py-10">
         <div className="w-full">
           <div class="grid place-items-center relative mb-10">
             <h1 class="text-3xl font-medium px-8 py-3 bg-white z-40">
@@ -137,7 +137,7 @@ const Reviews = () => {
           </div>
         </div>
         <div>
-         <div className="mt-[8.1rem]">
+         <div className="mt-[8.1rem] ml-[31px]">
          <CardsList data={perfumeReviews} />
          <CardsList data={perfumeReviews} />
          </div>
