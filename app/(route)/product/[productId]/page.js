@@ -223,7 +223,7 @@ const page = async ({ params }) => {
             Yeah! Perfume Maison Alhambra for men
           </span>
         </p>
-        <div className=" gap-x-10 gap-y-14 grid lg:grid-cols-[auto_20rem]">
+        <div className=" gap-x-10 gap-y-14 grid lg:grid-cols-[auto_18rem]">
           <div className="grid md:grid-cols-[55%_45%]  ">
             <div className=" ">
               {/* <img src={data?.data?.banner} alt="img" srcset="" /> */}
