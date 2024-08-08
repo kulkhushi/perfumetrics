@@ -14,17 +14,18 @@ const Buyfrom = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white text-center">
-      <div className="mt-4 md:flex md:items-center md:justify-center h-24">
+    <div className="flex flex-col items-left justify-left bg-white text-left w-full">
+      <div className="mt-4 md:flex md:items-left md:justify-left h-20">
         <a
           href="https://www.amazon.in"
-          className="text-blue-500 hover:underline underline text-2xl"
+          className="text-blue-500 hover:underline underline text-2xl w-40"
           target="_blank"
           rel="noopener noreferrer"
         >
           Search on
         </a>
-        <div className='relative'><Image
+        <br/>
+        <div className='relative w-full'><Image
           src={Amazon_India_logo.src}
           alt="Amazon"
           className=" ml-2"
@@ -37,7 +38,7 @@ const Buyfrom = () => {
 
       <div className="my-4">or</div>
 
-      <div className="mb-4 mb:flex mb:items-center mb:justify-center h-24">
+      <div className="mb-4 mb:flex mb:items-left mb:justify-left h-20 grid grid-cols-2">
         <a
           href="https://www.ebay.com"
           className="text-blue-500 hover:underline text-2xl"

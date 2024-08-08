@@ -238,8 +238,8 @@ const RatingResult = () => {
                         <div className="space-y-6">
                             {
                                 item?.status.map(sta => {
-                                    return <div className="grid grid-cols-[8rem_auto] gap-6">
-                                        <span className="text-nowrap font-medium capitalize">{sta.name}</span>
+                                    return <div className="grid grid-cols-[7rem_auto] gap-1">
+                                        <span className="text-nowrap font-medium capitalize w-[6rem]">{sta.name}</span>
                                         <div className=' w-full flex justify-start items-center gap-3'>
                                             <span>{sta.num}</span>
                                             <div className='bg-slate-300 relative w-full rounded-3xl h-3'>

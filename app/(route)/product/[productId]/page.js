@@ -207,6 +207,23 @@ const page = async ({ params }) => {
     },
   ];
 
+
+  const dataPros = {
+    pros: [
+      { id: 1, detail: "Great user interface" },
+      { id: 2, detail: "Fast performance" },
+      { id: 3, detail: "Affordable price" },
+      { id: 4, detail: "Excellent customer support" },
+      { id: 5, detail: "Wide range of features" }
+    ],
+    cons: [
+      { id: 1, detail: "Limited customization options" },
+      { id: 2, detail: "Consumes a lot of battery" },
+      { id: 3, detail: "Build quality could be better" },
+      { id: 4, detail: "Long waiting time on calls" },
+      { id: 5, detail: "Steep learning curve" }
+    ]
+  };
   const data = await getPerfumeById(productId);
   const perfumeData = await getPerfumes();
   console.log(data?.data, "data");
@@ -234,14 +251,14 @@ const page = async ({ params }) => {
                 alt="Description"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               /> */}
-              <div className="w-full  grid place-items-center ">
+              <div className="w-full  grid place-items-left ">
                 <img
                   src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTx9i5DBcQkjbErPnz2sW4ykIsR66GdgUbTwxahsuFDhg1o5Z1HQBanzufmDf605qhNqlrLF1eOti2Pd9IW1xsmFLuSQly7QSFrBAMrSEh8X-qxtvgNDn5x"
                   alt="img"
                   srcset=""
                 />
               </div>
-              <div className="flex justify-center px-14  py-8 md:mt-6">
+              <div className="flex justify-start px-14  py-8 md:mt-6">
                 <div className="w-fit grid place-items-center gap-1">
                   <IoHeart
                     className="border-2 size-12 border-black rounded-full p-1 text-pink-300"
@@ -335,7 +352,12 @@ const page = async ({ params }) => {
                 <div className="p-2 absolute -top-5 left-[50%] bg-white">
                   <FaQuoteLeft size={20} className=" text-[#83a6c4]" />
                 </div>
-                {data?.data?.description}
+                Dior launches its new fragrance Sauvage, with the name originating from the fragrance Eau Sauvage from 1966, although the two don’t belong to the same collection. Sauvage is inspired by wild, open spaces; blue sky that covers rocky landscapes, hot under the desert sun.
+
+Dior in-house perfumer, François Demachy, signed this creation. The fragrance is announced as radically fresh, raw and noble at the same time. The composition is reportedly prevalent with carefully selected natural ingredients. Fresh top notes of Calabria bergamot encounter ambroxan, obtained from precious ambergris, and its woody trail.
+
+Dior Sauvage comes out in September 2015, advertised by actor Johnny Depp. It is available as 60 and 100 ml Eau de Toilette.
+                {/* {data?.data?.description} */}
               </div>
               <div className="relative border-b-2 py-4 text-[#138B92]">
                 <span className="text-[#A2ADC4]">
@@ -350,7 +372,7 @@ const page = async ({ params }) => {
             {/* detail ends */}
 
             {/* pros n cons */}
-            <ProsCons data={data?.data} />
+            <ProsCons data={dataPros} />
             {/* pros n cons */}
           </div>
           <div>
@@ -386,8 +408,8 @@ const page = async ({ params }) => {
           </div>
           <div className="grid lg:grid-cols-[auto_18rem]">
             <div className="flex items-start justify-center lg:translate-x-6   gap-10 ">
-              <div className="flex items-center gap-12  ">
-                <div className="p-4 ">
+              <div className="flex items-center gap-1  ">
+                <div className="p-4 relative left-5">
                   <p className="px-20 font-bold">High</p>
                   <div className="">
                     <svg
@@ -488,7 +510,7 @@ const page = async ({ params }) => {
               </div>
             </div>
             <div>
-              <CardsList data={perfumeReviews} />
+              {/* <CardsList data={perfumeReviews} /> */}
             </div>
           </div>
         </div>

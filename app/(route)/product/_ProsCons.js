@@ -12,7 +12,7 @@ const ProsCons = ({ data }) => {
 
       <div className="grid grid-col-2  items-center bg-white md:p-6 border border-gray-200 rounded-lg shadow-md mt-12">
         <div className="grid lg:grid-cols-2 justify-center md:w-full sm:w-60">
-          <div className=" md:p-4 lg:border-r border-gray-300 grid place-items-center">
+          <div className=" md:p-4 lg:border-r border-gray-300 grid place-items-center bg-[#f0fff1]">
             <div className="mt-4">
               <div className="text-[#2e6e6a] font-semibold text-center   mx-auto w-[15rem] py-4  text-xl">
                 <p className="border border-black flex justify-center items-center px-12 py-3 gap-3 ">
@@ -37,7 +37,8 @@ const ProsCons = ({ data }) => {
                       </span>
                     </div>
                     <span className="text-center block">
-                      {item.pros}                
+                    This is Dummy content...........................This is Dummy content...........................
+                      {/* {item.pros}                 */}
                       </span>
                   </li>
              
@@ -46,9 +47,9 @@ const ProsCons = ({ data }) => {
             </div>
           </div>
 
-          <div className=" p-4  border-gray-300 grid  place-items-center">
+          <div className=" p-4  border-gray-300 grid  place-items-center bg-[#fff5f5]">
             <div className="mt-4">
-              <div className="text-[#ec5151] font-semibold text-center   mx-auto w-[15rem] py-4  text-xl">
+              <div className="text-[#ec5151] font-semibold text-center   mx-auto w-[15rem] py-4  text-xl ">
                 <p className="border border-black flex justify-center items-center px-12 py-3 gap-3 ">
                   {" "}
                   <svg
@@ -89,7 +90,10 @@ const ProsCons = ({ data }) => {
                         <span className="">{item.dislikes}</span>
                       </span>
                     </div>
-                    <span className="text-center text-wrap ">{item.cons}</span>
+                    <span className="text-center text-wrap ">
+                      {/* {item.cons} */}
+                      This is Dummy content...........................This is Dummy content...........................
+                      </span>
                   </li>
                 </div>
               ))}
