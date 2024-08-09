@@ -8,7 +8,7 @@ const ProductCards = ({ data }) => {
         data.map((e) => (
           <Link
             // href={`/product/${e?._id}`}
-            href={`/product/6694b6798c60d31a21ec4731`}
+           href={`/product/668695446cbaf3ac7396d8eb`}
             // href={`/product/34232323`}
 
             className="w-full   h-[400px]  border-2 border-pink-500 grid place-items-center  gap-2 rounded-md transition duration-300"

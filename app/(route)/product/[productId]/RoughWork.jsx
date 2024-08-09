@@ -199,7 +199,7 @@ const page = async ({ params }) => {
 
     const data = await getPerfumeById(productId);
     const perfumeData = await getPerfumes();
-    console.log(data?.data, "data");
+    console.log(data, "data Chart");
     const purchaseLinksData = data.data?.purchaseLinks;
 
     return (

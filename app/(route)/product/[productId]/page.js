@@ -6,6 +6,7 @@ async function getPerfumeById(perfumeId) {
     }
   );
   const data = await response.json();
+  console.log('data from Page',data);
   return data;
 }
 
